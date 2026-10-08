@@ -97,7 +97,7 @@ Registro semanal de lo que construí y aprendí. Cada hito tiene su publicación
 
 | Semana | Fecha | Qué construí / aprendí | Publicación |
 |---|---|---|---|
-| 0 | Octubre 2026 | Documento de arquitectura del producto (backend propio) y plan de aprendizaje por etapas | [LinkedIn](#) |
+| 0 | Octubre 2026 | Documento de arquitectura del producto (backend propio) y plan de aprendizaje por etapas | [LinkedIn](https://lnkd.in/p/dn9KAWQa) |
 | 1 | | | |
 
 ---
@@ -107,7 +107,7 @@ Registro semanal de lo que construí y aprendí. Cada hito tiene su publicación
 **Emanuel Romero**: programador trainee, egresado de los fundamentos de programación de Holberton School.
 
 - GitHub: [@padredemellis](https://github.com/padredemellis)
-- LinkedIn: [agregar enlace](#)
+- LinkedIn: [agregar enlace](https://www.linkedin.com/in/luis-emanuel-romero-duarte/)
 
 ---
 
