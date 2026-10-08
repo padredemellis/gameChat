@@ -48,9 +48,9 @@ Los tiempos son estimados con 1 hora diaria (~7 horas por semana).
 
 | Etapa | Qué construyo | Qué aprendo | Tiempo estimado | Estado |
 |---|---|---|---|---|
-| **0. Preparación** | Repositorio nuevo y ordenado, entorno de trabajo, licencia | Git y GitHub (ramas, commits, Pull Requests), entornos virtuales de Python, Docker, `.gitignore` y manejo de secretos | 1 semana | ⏳ En curso |
+| **0. Preparación** | Repositorio nuevo y ordenado, entorno de trabajo, licencia | Git y GitHub (ramas, commits, Pull Requests), entornos virtuales de Python, `.gitignore` y manejo de secretos | 1 semana | Completo |
 | **1. Primera API** | API en FastAPI que consulta una API deportiva y devuelve el próximo partido de un club | HTTP y REST, FastAPI, modelos con Pydantic, consumir APIs externas, variables de entorno, tests con `pytest` | 3-4 semanas | ⬜ Pendiente |
-| **2. Base de datos** | Clubes, partidos y usuarios guardados en PostgreSQL, con una tarea que sincroniza los partidos | SQL, PostgreSQL en Docker, SQLAlchemy, migraciones con Alembic, tareas programadas | 3-4 semanas | ⬜ Pendiente |
+| **2. Base de datos** | Clubes, partidos y usuarios guardados en PostgreSQL, con una tarea que sincroniza los partidos | SQL,Docker, PostgreSQL en Docker, SQLAlchemy, migraciones con Alembic, tareas programadas | 3-4 semanas | ⬜ Pendiente |
 | **3. Autenticación** | Registro, login y perfil del usuario (elegir club y selección) | Hash de contraseñas, JWT (access y refresh tokens), rutas protegidas, seguridad básica de APIs | 2-3 semanas | ⬜ Pendiente |
 | **4. App Flutter** | Onboarding, login, tema con los colores del club y Home con la cuenta regresiva del próximo partido, consumiendo **mi propia API** | Dart, widgets, navegación, manejo de estado con Riverpod, consumir una API desde el móvil | 4-6 semanas | ⬜ Pendiente |
 | **5. Tiempo real** | Chat **Catarsis** durante el partido | WebSockets en FastAPI y en Flutter, salas, autorización por JWT | 3-4 semanas | ⬜ Pendiente |
@@ -97,7 +97,7 @@ Registro semanal de lo que construí y aprendí. Cada hito tiene su publicación
 
 | Semana | Fecha | Qué construí / aprendí | Publicación |
 |---|---|---|---|
-| 0 | Octubre 2026 | Documento de arquitectura del producto (backend propio) y plan de aprendizaje por etapas | [LinkedIn](https://lnkd.in/p/dn9KAWQa) |
+| 0 | Octubre 2026 | Documento de arquitectura del producto (backend propio) y plan de aprendizaje por etapas | https://lnkd.in/p/dn9KAWQa |
 | 1 | | | |
 
 ---
@@ -107,7 +107,7 @@ Registro semanal de lo que construí y aprendí. Cada hito tiene su publicación
 **Emanuel Romero**: programador trainee, egresado de los fundamentos de programación de Holberton School.
 
 - GitHub: [@padredemellis](https://github.com/padredemellis)
-- LinkedIn: [agregar enlace](https://www.linkedin.com/in/luis-emanuel-romero-duarte/)
+- LinkedIn: https://www.linkedin.com/in/luis-emanuel-romero-duarte/
 
 ---
 
