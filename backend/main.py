@@ -1,3 +1,8 @@
+"""
+Api deportiva para conectar los partidos con Flutter
+"""
+
+
 from fastapi import FastAPI
 
 app = FastAPI()
@@ -16,4 +21,4 @@ def salud_de_la_api() -> dict:
     """
     Muestra si la api funciona
     """
-    return {"Funciona": "Si"}
+    return {"funciona": True}
