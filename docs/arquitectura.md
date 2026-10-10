@@ -260,7 +260,7 @@ Aficionados al fútbol mayores de 16 años, usuarios de teléfonos móviles Andr
 | **Autenticación** | JWT (access + refresh tokens) + hash de contraseñas (Argon2/bcrypt) | Login con email propio. Más adelante, inicio de sesión con Google y Apple (OAuth 2.0). |
 | **Tareas programadas** | APScheduler dentro del backend | Consulta periódica de la API deportiva, cierre de pencas, limpieza de chats y reparto de premios. |
 | **Notificaciones push** | Firebase Cloud Messaging (FCM) — *solo para push* | Es el canal estándar para notificaciones en Android (y puede enviar a iOS vía APNs). Se integra al final; no almacena datos de la app. |
-| **API de Deportes** | MVP: API pública gratuita (por ej. OpenLigaDB). Producción: Sportmonks / API-Football (pago). | Solo el backend consulta la API externa; la app nunca ve las claves. |
+| **API de Deportes** | MVP: API pública gratuita (por ej. football-data.org). Producción: Sportmonks / API-Football (pago). | Solo el backend consulta la API externa; la app nunca ve las claves. |
 | **Traducción** | Google Cloud Translation API (NMT) | Traducción de mensajes en chat rivales, solo a los idiomas presentes en la sala (ver costos en la sección 14.5). |
 | **Infraestructura** | Docker + Docker Compose | Levantar API + PostgreSQL (+ Redis) en local con un solo comando, y desplegar igual en un hosting con soporte para contenedores. |
 | **Monetización** | Google Play / App Store (suscripciones) + AdMob (anuncios) | Suscripción mensual para eliminar anuncios. Anuncios recompensados para recargar energía. |
