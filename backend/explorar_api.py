@@ -6,6 +6,9 @@ from dotenv import load_dotenv
 load_dotenv()
 api_key = os.getenv("CLAVE_FOOTBALL")
 
+if not api_key:
+    print("Error: no se encontró la clave en el archivo .env")
+
 url = "https://api.football-data.org/v4/competitions"
 headers = {
     "X-Auth-Token": api_key
