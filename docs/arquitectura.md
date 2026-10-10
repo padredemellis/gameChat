@@ -575,7 +575,7 @@ El rival IA tiene **tres niveles de dificultad**, seleccionables desde el lobby 
 
 ## 12. API de Datos Deportivos
 
-- **MVP:** OpenLigaDB (gratuita, limitada a algunas ligas) o ESPN Core API. Proveerá fixture, resultado y eventos básicos.
+- **MVP:** football-data.org (gratuita, limitada a algunas ligas) o ESPN Core API. Proveerá fixture, resultado y eventos básicos.
 - **Producción:** Migrar a Sportmonks o API-Football (latencia <2s para GEP).  
   El simulador visual usará solo eventos importantes: gol, tarjeta roja, penal, cambios; no requiere tracking posicional minuto a minuto en MVP.
 - **Backend como único consumidor:** para evitar límites de peticiones (rate limits) y no exponer claves de API en la app, solo el backend consulta (o recibe webhooks de) la API deportiva. Normaliza los datos, los guarda en PostgreSQL (`partidos`, `eventos_partido`) y los emite por WebSocket a los usuarios conectados.
@@ -890,7 +890,7 @@ Todas las cifras están en dólares estadounidenses y excluyen marketing y costo
 | Diseñador UX/UI (pantallas, flujos) | USD 3.000 – 5.000 | 2 meses, parcial |
 | Ilustrador 2D (personajes base, sprites) | USD 2.000 – 4.000 | 2 meses, parcial |
 | Hosting del backend + PostgreSQL (en desarrollo) | USD 0 – 50/mes | — |
-| API deportiva | USD 0 (OpenLigaDB en MVP) → USD 99/mes (Sportmonks en producción) | — |
+| API deportiva | USD 0 (football-data.org en MVP) → USD 99/mes (Sportmonks en producción) | — |
 | Cuentas de desarrollador | Google Play: USD 25 (pago único) · Apple: USD 99/año | — |
 | **Total** | **USD 20.000 – 33.000** | **6 meses** |
 
